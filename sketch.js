@@ -32,7 +32,7 @@ function draw() {
   c3 = 255;
   
   for (let i = 0; i < a; i++){
-        b = (360 * i/9) - 50
+        b = (360 * i/9) - 50;
       var x = startX + scalar * cos(b);
   var y = startY + scalar * sin(b);
         noStroke();
@@ -42,7 +42,7 @@ function draw() {
     c3 -= c_inc;
     fly[i] = new Bug(x, y, 25);
     fly[i].display();
-  //    angle++
+  //    angle++;
   }
     fly2 = new Bug(width * (3/4), height * (3/4), 50, 50);
     fly2.display();
