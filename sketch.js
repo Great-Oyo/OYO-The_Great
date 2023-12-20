@@ -2,7 +2,7 @@ let fly = [];
 let fly2;
 function setup() {
 
-  createCanvas(400, 400);
+  createCanvas(windowWidth, windowHeight);
 	background(100, 200, 255);
       rectMode(CENTER);
   colorMode(HSB);
