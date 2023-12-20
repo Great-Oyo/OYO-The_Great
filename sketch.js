@@ -9,8 +9,8 @@ function setup() {
   angleMode(DEGREES);	// change the angle mode from radians to degrees
 }
 var scalar = 50;  // set the radius of circle
-var startX = 200;	// set the x-coordinate for the circle center
-var startY = 200;	// set the y-coordinate for the circle center
+var startX = windowWidth;	// set the x-coordinate for the circle center
+var startY = windowHeight;	// set the y-coordinate for the circle center
 f1 = 0;
 f2 = 0;
 f3 = 0;
