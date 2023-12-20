@@ -2,15 +2,15 @@ let fly = [];
 let fly2;
 function setup() {
 
-  createCanvas(windowWidth, windowHeight);
+createCanvas(windowWidth, windowHeight);
 	background(100, 200, 255);
       rectMode(CENTER);
   colorMode(HSB);
   angleMode(DEGREES);	// change the angle mode from radians to degrees
 }
 var scalar = 50;  // set the radius of circle
-var startX = windowWidth;	// set the x-coordinate for the circle center
-var startY = windowHeight;	// set the y-coordinate for the circle center
+var startX = windowWidth/2;	// set the x-coordinate for the circle center
+var startY = windowHeight/2;	// set the y-coordinate for the circle center
 f1 = 0;
 f2 = 0;
 f3 = 0;
