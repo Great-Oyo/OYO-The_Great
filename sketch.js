@@ -7,6 +7,8 @@ function setup() {
       rectMode(CENTER);
   colorMode(HSB);
   angleMode(DEGREES);	// change the angle mode from radians to degrees
+  fill(0);
+  ellipse(width/2, height/2, 50, 50);
 
 }
 
@@ -48,9 +50,6 @@ var startY = height/2;	// set the y-coordinate for the circle center
   }
     fly2 = new Bug(width * (3/4), height * (3/4), 50, 50);
     fly2.display();
-
-fill(255);
-ellipse(startX, startY, 50, 50);
 
   
     if (dist(mouseX, mouseY, fly2.x, fly2.y) < fly2.w1) {
