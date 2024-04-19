@@ -26,6 +26,9 @@ function draw() {
 var startX = width/2;	// set the x-coordinate for the circle center
 var startY = height/2;	// set the y-coordinate for the circle center
 
+fill(255);
+ellipse(startX, startY, 50, 50);
+
       a = 9;
   c_inc = 255/9;
   c1 = 0;
