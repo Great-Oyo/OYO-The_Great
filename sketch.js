@@ -7,8 +7,7 @@ function setup() {
       rectMode(CENTER);
   colorMode(HSB);
   angleMode(DEGREES);	// change the angle mode from radians to degrees
-fill(255);
-ellipse(width/2, height/2, 50, 50);
+
 }
 
 f1 = 0;
