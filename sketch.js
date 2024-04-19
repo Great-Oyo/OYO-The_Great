@@ -55,23 +55,27 @@ var startY = height/2;	// set the y-coordinate for the circle center
     if (dist(mouseX, mouseY, fly2.x, fly2.y) < fly2.w1) {
 
   if(f[0] & f[2] & f[3] & f[4] & f[5] & f[6] & f[7] & f[8] == 1){
-    	background(100);
+	fill(100, 200, 255);
+    	rect(100, 120, 50, 100);
 text( 'Beorc was formed', 100, 120);
 f = [0, 0, 0, 0, 0, 0, 0, 0, 0];
 }
   if(f[0] & f[1] & f[2] & f[3] & f[5] & f[6] & f[7] & f[8]== 1){
-    	background(100);
+	fill(100, 200, 255);
+    	rect(100, 120, 50, 100);
 text( 'Mannaz was formed', 100, 120);
 f = [0, 0, 0, 0, 0, 0, 0, 0, 0];
 }
   if(f[0] & f[1] & f[2] & f[4] & f[6] & f[7] & f[8]== 1){
-    	background(100);
+	fill(100, 200, 255);
+    	rect(100, 120, 50, 100);
 text( 'Othel was formed', 100, 120);
 f = [0, 0, 0, 0, 0, 0, 0, 0, 0];
 } 
       
   if(f[0] & f[1] & f[2] & f[4] & f[5] & f[6] & f[7]== 1){
-    	background(100);
+	fill(100, 200, 255);
+    	rect(100, 120, 50, 100);
 text( 'Daeg was formed', 100, 120);
 f = [0, 0, 0, 0, 0, 0, 0, 0, 0];
 }    
@@ -172,7 +176,8 @@ text( 'Kenaz was formed', 100, 120);
 f = [0, 0, 0, 0, 0, 0, 0, 0, 0];
 }
   if(f[5] & f[2] & f[8]== 1){
-    	background(100);
+	fill(100, 200, 255);
+    	rect(100, 120, 50, 100);
 text( 'triangle was formed', 100, 120);
 f = [0, 0, 0, 0, 0, 0, 0, 0, 0];
 }
