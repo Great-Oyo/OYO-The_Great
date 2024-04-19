@@ -32,6 +32,9 @@ var startY = height/2;	// set the y-coordinate for the circle center
   c1 = 0;
   c2 = 255;
   c3 = 255;
+
+fill(255);
+ellipse(startX, startY, 50, 50);
   
   for (let i = 0; i < a; i++){
         b = (360 * i/9) - 50
