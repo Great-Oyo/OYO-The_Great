@@ -5,7 +5,6 @@ function setup() {
   createCanvas(windowWidth, windowHeight);
 	background(100, 200, 255);
       rectMode(CENTER);
-  colorMode(HSB);
   angleMode(DEGREES);	// change the angle mode from radians to degrees
   fill(0);
   ellipse(width/2, height/2, 50, 50);
@@ -177,7 +176,7 @@ f = [0, 0, 0, 0, 0, 0, 0, 0, 0];
 }
   if(f[5] & f[2] & f[8]== 1){
 	fill(100, 200, 255);
-    	rect(100, 120, 50, 100);
+    	rect(100, 120, 100, 25);
 text( 'triangle was formed', 100, 120);
 f = [0, 0, 0, 0, 0, 0, 0, 0, 0];
 }
