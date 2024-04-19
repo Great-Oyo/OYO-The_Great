@@ -7,6 +7,8 @@ function setup() {
       rectMode(CENTER);
   colorMode(HSB);
   angleMode(DEGREES);	// change the angle mode from radians to degrees
+fill(255);
+ellipse(width/2, height/2, 50, 50);
 }
 
 f1 = 0;
@@ -25,9 +27,6 @@ function draw() {
   var scalar = 50;  // set the radius of circle
 var startX = width/2;	// set the x-coordinate for the circle center
 var startY = height/2;	// set the y-coordinate for the circle center
-
-fill(255);
-ellipse(startX, startY, 50, 50);
 
       a = 9;
   c_inc = 255/9;
